@@ -1290,7 +1290,7 @@ lookup markMarkPositioninglookup1 {
 	<anchor 111 716> mark @Diacritic;
   pos base [\uni04630301 ] <anchor 318 826> mark @Yerok
 	<anchor 318 826> mark @Diacritic;
-  pos base [\afii10101 ] <anchor 366 557> mark @Yerok
+  pos base [\afii10101 \uni1C83 ] <anchor 366 557> mark @Yerok
 	<anchor 241 556> mark @Diacritic;
   pos base [\afii10054 ] <anchor 465 716> mark @Yerok
 	<anchor 255 716> mark @Diacritic;
@@ -1366,7 +1366,7 @@ lookup markMarkPositioninglookup1 {
 	<anchor 201 556> mark @Diacritic;
   pos base [\afii10068 ] <anchor 286 557> mark @Yerok
 	<anchor 190 556> mark @Diacritic;
-  pos base [\afii10069 ] <anchor 303 557> mark @Yerok
+  pos base [\afii10069 \uni1C81 ] <anchor 303 557> mark @Yerok
 	<anchor 211 556> mark @Diacritic;
   pos base [\afii10070 ] <anchor 192 557> mark @Yerok
 	<anchor 141 556> mark @Diacritic;
@@ -1470,6 +1470,16 @@ lookup markMarkPositioninglookup1 {
 	<anchor 567 635> mark @Diacritic;
   pos base [\uni25CC ] <anchor 375 525> mark @Yerok
 	<anchor 263 539> mark @Diacritic;
+  pos base [\uniA640 \uniA642 ] <anchor 281 716> mark @Yerok
+	<anchor 281 716> mark @Diacritic;
+  pos base [\uniA641 \uniA643 ] <anchor 398 557> mark @Yerok
+	<anchor 243 556> mark @Diacritic;
+  pos base [\uni0480 ] <anchor 324 716> mark @Diacritic
+	<anchor 458 716> mark @Yerok;
+  pos base [\uni0481 ] <anchor 241 556> mark @Diacritic
+	<anchor 351 557> mark @Yerok;
+  pos base [\uni1C85 ] <anchor 397 556> mark @Diacritic
+	<anchor 692 557> mark @Yerok;
 } markMarkPositioninglookup1;
 
 lookup mkmkMarktoMarkPositioning {
@@ -1634,7 +1644,8 @@ feature mkmk {
 	\uni2002 \uni2001 \uni2000 \bullet \ellipsis \guilsinglleft \guilsinglright 
 	\fraction \onedotenleader \twodotenleader \uni2027 \uni202F \uni203B \uni2056 
 	\uni2058 \uni2059 \uni205C \uni205D \uni205E \uni2060 \uni2074 \Euro \uni20DD 
-	\minus \uni2215 \uni034F \uni2720 \uni25CC \uni2626 \dagger ];
+	\minus \uni2215 \uni034F \uni2720 \uni25CC \uni2626 \dagger \uniA640 \uniA641 
+	\uniA642 \uniA643 \uni0480 \uni0481 \uni1C81 \uni1C83 \uni1C85 ];
 @GDEF_Ligature = [\uni0450 \uni047C \uni0478 \uni0476 \uni047D \uni047F \uni0479 
 	\uni0477 \uniA64B0311 \uniA64B0300 \uniA64B0301 \uni04630300 \uni0407 \uni0457 
 	\uni04630301 \afii10027 \afii10075 \uni04630311 \uni0400 \uni0401 \uni0403 

@@ -848,5 +848,23 @@
     <string>uni2626.glif</string>
     <key>dagger</key>
     <string>dagger.glif</string>
+    <key>uniA640</key>
+    <string>uniA_640.glif</string>
+    <key>uniA641</key>
+    <string>uniA_641.glif</string>
+    <key>uniA642</key>
+    <string>uniA_642.glif</string>
+    <key>uniA643</key>
+    <string>uniA_643.glif</string>
+    <key>uni0480</key>
+    <string>uni0480.glif</string>
+    <key>uni0481</key>
+    <string>uni0481.glif</string>
+    <key>uni1C81</key>
+    <string>uni1C_81.glif</string>
+    <key>uni1C83</key>
+    <string>uni1C_83.glif</string>
+    <key>uni1C85</key>
+    <string>uni1C_85.glif</string>
   </dict>
 </plist>
