@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10090" format="2">
+  <advance width="707"/>
+  <unicode hex="0448"/>
+  <anchor x="596" y="557" name="Yerok"/>
+  <anchor x="381" y="556" name="Diacritic"/>
+  <outline>
+    <contour>
+      <point x="655" y="433" type="curve" smooth="yes"/>
+      <point x="641.394" y="362.25"/>
+      <point x="634" y="309.714"/>
+      <point x="634" y="226" type="curve" smooth="yes"/>
+      <point x="634" y="146.764"/>
+      <point x="640.081" y="81.7483"/>
+      <point x="652" y="15" type="curve" smooth="yes"/>
+      <point x="652.667" y="11.6667"/>
+      <point x="653" y="6.66667"/>
+      <point x="653" y="0" type="curve"/>
+      <point x="62" y="0" type="line"/>
+      <point x="62" y="106.549"/>
+      <point x="68.6553" y="217.726"/>
+      <point x="79" y="316" type="curve" smooth="yes"/>
+      <point x="83.3606" y="357.425"/>
+      <point x="89.1147" y="400.013"/>
+      <point x="98" y="432" type="curve"/>
+      <point x="124.614" y="437.118"/>
+      <point x="173.094" y="442"/>
+      <point x="202" y="442" type="curve" smooth="yes"/>
+      <point x="204.667" y="441.333"/>
+      <point x="206" y="438.667"/>
+      <point x="206" y="434" type="curve" smooth="yes"/>
+      <point x="196.712" y="410.117"/>
+      <point x="185.808" y="394.488"/>
+      <point x="183" y="365" type="curve" smooth="yes"/>
+      <point x="168.957" y="247.971"/>
+      <point x="160" y="137.818"/>
+      <point x="160" y="18" type="curve"/>
+      <point x="305" y="18" type="line"/>
+      <point x="305" y="122.956"/>
+      <point x="310.131" y="239.428"/>
+      <point x="318.5" y="338" type="curve" smooth="yes"/>
+      <point x="321.5" y="373.333"/>
+      <point x="325.333" y="404"/>
+      <point x="330" y="430" type="curve"/>
+      <point x="362.028" y="440.249"/>
+      <point x="394.941" y="442"/>
+      <point x="436" y="442" type="curve" smooth="yes"/>
+      <point x="438" y="441.333"/>
+      <point x="439" y="438.667"/>
+      <point x="439" y="434" type="curve" smooth="yes"/>
+      <point x="428.519" y="418.278"/>
+      <point x="424.726" y="398.17"/>
+      <point x="422" y="375" type="curve" smooth="yes"/>
+      <point x="411.185" y="260.361"/>
+      <point x="409" y="129.793"/>
+      <point x="409" y="18" type="curve"/>
+      <point x="543" y="18" type="line"/>
+      <point x="539.505" y="72.1772"/>
+      <point x="536" y="147.097"/>
+      <point x="536" y="212" type="curve" smooth="yes"/>
+      <point x="536" y="270.57"/>
+      <point x="540.037" y="335.824"/>
+      <point x="546" y="388.5" type="curve" smooth="yes"/>
+      <point x="548" y="406.167"/>
+      <point x="550.333" y="420"/>
+      <point x="553" y="430" type="curve"/>
+      <point x="577.339" y="437.302"/>
+      <point x="619.793" y="442"/>
+      <point x="651" y="442" type="curve" smooth="yes"/>
+      <point x="653.667" y="441.333"/>
+      <point x="655" y="438.333"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>18</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>422</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>62</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>305</integer>
+            <key>width</key>
+            <integer>104</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>536</integer>
+            <key>width</key>
+            <integer>98</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
