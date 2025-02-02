@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1220731200
-ModificationTime: 1738512366
+ModificationTime: 1738513154
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ OS2Vendor: '    '
 OS2CodePages: 00000005.00000000
 OS2UnicodeRanges: 80000203.0000004a.00000000.00000000
 Lookup: 4 0 0 "'ccmp' Precomposed Glyphs" { "'ccmp' Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Alternative Forms for Uppercase Letters" { "'ccmp' Alternative Forms for Uppercase Letters-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Alternative Forms for Uppercase Contextual" { "'ccmp' Alternative Forms for Uppercase Contextual-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Uk at Right" { "'ccmp' Uk at Right-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives" { "'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 Alternative Hyphen" { "'ss01' Style Set 1 Alternative Hyphen-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -68,6 +68,23 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lo
 Lookup: 262 0 0 "'mkmk' Mark to Mark Positioning" { "'mkmk' Mark to Mark Positioning-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'ccmp' Alternative Forms for Uppercase Contextual-1" 3 3 3 1
+  Class: 23 uni0486 uniE001 uniE003
+  Class: 493 uni0400 uni0401 uni0403 afii10053 afii10054 uni0406 uni0407 uni040C uni040D uni040E afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 uni0423 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 uni042D afii10048 uni0460 uni0462 uni0466 uni046E uni0470 uni0472 uni0474 uni0476 uni0478 uni047A uni047E uniA64A uniA656
+  BClass: 23 uni0486 uniE001 uniE003
+  BClass: 493 uni0400 uni0401 uni0403 afii10053 afii10054 uni0406 uni0407 uni040C uni040D uni040E afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 uni0423 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 uni042D afii10048 uni0460 uni0462 uni0466 uni046E uni0470 uni0472 uni0474 uni0476 uni0478 uni047A uni047E uniA64A uniA656
+  FClass: 23 uni0486 uniE001 uniE003
+  FClass: 493 uni0400 uni0401 uni0403 afii10053 afii10054 uni0406 uni0407 uni040C uni040D uni040E afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 uni0423 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 uni042D afii10048 uni0460 uni0462 uni0466 uni046E uni0470 uni0472 uni0474 uni0476 uni0478 uni047A uni047E uniA64A uniA656
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Uppercase diacritics"
+  ClassNames: "All_Others" "diacritic" "uppercase"
+  BClassNames: "All_Others" "diacritic" "uppercase"
+  FClassNames: "All_Others" "diacritic" "uppercase"
+EndFPST
 ChainSub2: class "'ccmp' Uk at Right-1" 3 3 3 1
   Class: 7 uniA64B
   Class: 139 uni0487 uni2DE3 uni2DE4 uni2DE5 uni2DEE uni2DEF uniE005 uni2DE10487 uni2DE20487 uni2DE90487 uni2DEA0487 uni2DEC0487 uni2DED0487 uni2DF10487
@@ -84,23 +101,6 @@ ChainSub2: class "'ccmp' Uk at Right-1" 3 3 3 1
   ClassNames: "All_Others" "Uk" "Diacritics"
   BClassNames: "All_Others" "Uk" "Diacritics"
   FClassNames: "All_Others" "Uk" "Diacritics"
-EndFPST
-ContextSub2: class "'ccmp' Alternative Forms for Uppercase Letters-1" 3 3 3 1
-  Class: 23 uni0486 uniE001 uniE003
-  Class: 493 uni0400 uni0401 uni0403 afii10053 afii10054 uni0406 uni0407 uni040C uni040D uni040E afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 uni0423 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 uni042D afii10048 uni0460 uni0462 uni0466 uni046E uni0470 uni0472 uni0474 uni0476 uni0478 uni047A uni047E uniA64A uniA656
-  BClass: 23 uni0486 uniE001 uniE003
-  BClass: 493 uni0400 uni0401 uni0403 afii10053 afii10054 uni0406 uni0407 uni040C uni040D uni040E afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 uni0423 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 uni042D afii10048 uni0460 uni0462 uni0466 uni046E uni0470 uni0472 uni0474 uni0476 uni0478 uni047A uni047E uniA64A uniA656
-  FClass: 23 uni0486 uniE001 uniE003
-  FClass: 493 uni0400 uni0401 uni0403 afii10053 afii10054 uni0406 uni0407 uni040C uni040D uni040E afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 uni0423 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 uni042D afii10048 uni0460 uni0462 uni0466 uni046E uni0470 uni0472 uni0474 uni0476 uni0478 uni047A uni047E uniA64A uniA656
- 2 0 0
-  ClsList: 2 1
-  BClsList:
-  FClsList:
- 1
-  SeqLookup: 1 "Uppercase diacritics"
-  ClassNames: "All_Others" "diacritic" "uppercase"
-  BClassNames: "All_Others" "diacritic" "uppercase"
-  FClassNames: "All_Others" "diacritic" "uppercase"
 EndFPST
 TtTable: prep
 PUSHW_1
@@ -2543,6 +2543,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Kerns2: 37 -60 "'kern' Horizontal Kerning lookup 0 subtable" 47 -10 "'kern' Horizontal Kerning lookup 0 subtable" 49 -58 "'kern' Horizontal Kerning lookup 0 subtable" 72 -18 "'kern' Horizontal Kerning lookup 0 subtable" 75 -20 "'kern' Horizontal Kerning lookup 0 subtable" 108 -37 "'kern' Horizontal Kerning lookup 0 subtable" 112 -54 "'kern' Horizontal Kerning lookup 0 subtable" 114 -10 "'kern' Horizontal Kerning lookup 0 subtable" 119 -62 "'kern' Horizontal Kerning lookup 0 subtable" 120 -70 "'kern' Horizontal Kerning lookup 0 subtable" 122 -16 "'kern' Horizontal Kerning lookup 0 subtable" 124 -18 "'kern' Horizontal Kerning lookup 0 subtable" 125 -6 "'kern' Horizontal Kerning lookup 0 subtable"
+Ligature2: "'ccmp' Precomposed Glyphs-1" afii10080 uni0443
 Ligature2: "'ccmp' Precomposed Glyphs-1" uni1C82 uni0443
 EndChar
 

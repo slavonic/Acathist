@@ -3,7 +3,7 @@ venv
 venv-test
 build.stamp
 proof
-fonts
+#fonts #remove because the online build does not work correctly
 node_modules
 package-lock.json
 package.json
